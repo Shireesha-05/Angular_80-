@@ -1,0 +1,94 @@
+
+
+
+.form-group {
+  margin-bottom: 1em;
+  
+  
+}
+ 
+.form-group label {
+  display:flow-root;
+  left: 0;
+  align-items: center;
+  
+}
+ 
+.form-group input {
+  width: 70%;
+  padding: 0.5em;
+  margin-top: 0.10em;
+
+  eye-btn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color:#fcfcfc;
+    width: 120px;
+    height: 120px;
+    padding: 0.5em;
+  }
+  
+  .eye-btn:hover {
+    color: #ccc;
+  }
+   
+   label {
+    display: block;
+    margin-top: 0.5em;
+  }
+  
+ 
+  
+} 
+ 
+.error{
+
+  border: 1px solid red;
+}
+
+ 
+/* button {
+  padding: 0.5em 2em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 20%;
+}
+ 
+button[disabled] {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  align-items: center;
+} */
+ 
+.form-group div {
+  display: inline-block;
+  width: 48%;
+  vertical-align:middle;
+  margin-right: -10%;
+  
+}
+ 
+.form-group div:last-child {
+  margin-right: 50;
+} 
+
+select{
+  width: 70%;
+  padding: 0.5em ;
+  margin-top: 0.25em;
+}
+
+image{
+  width: 100%;
+
+}
+
+

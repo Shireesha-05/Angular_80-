@@ -1,0 +1,14 @@
+div.form-outline mt-10{
+    width:100%;
+    color:blue;
+    background-color: aqua;
+}
+table.table table-striped{
+    height: 30px;;
+    width:fit-content;
+}
+.emptyData{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}

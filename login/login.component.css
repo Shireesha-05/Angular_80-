@@ -1,0 +1,72 @@
+.login-align{
+    font-family:Verdana, Geneva, Tahoma, sans-seri;
+
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    display:block;
+    background:rgb(217, 217, 250);
+    padding: 20px;
+    border-radius: 70px;
+    box-shadow: 20 5 10px rgba(11, 129, 202, 0.1);
+    width: 500px;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+input {
+    width: 90%;
+    padding: 7px;
+    border: 1px solid #87b7bb;
+    border-radius: 30px;
+}
+/* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+} */
+error{
+    border: 1px solid red;
+}
+eye-btn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color:#bfb9b9;
+    width: 120px;
+    height: 120px;
+    padding: 0.5em;
+  }
+  
+  .eye-btn:hover {
+    color: #ccc;
+  }
+  
+  .fa-regular fa-eye-slash{
+    background-color: transparent;
+
+    color: black;
+  }

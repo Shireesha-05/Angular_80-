@@ -1,0 +1,54 @@
+
+
+
+<app-dashboard></app-dashboard>
+<br>
+<br>
+<br>
+<br>
+
+<h1 style="color: green;padding: 0%; text-align: center;" class="reset()">Hello <b>{{shareService.userData}} </b> Welcome to our Website</h1>
+
+
+
+<div class="col-sm-17">
+<div class="form-outline mt-10" style="padding: 5%;padding-left: 30%;">
+    <input type="search" [(ngModel)]="searchText" id="form1" class="forn-control" placeholder="search"arial-label="search"/>
+    <i class="fa-solid fa-magnifying-glass fa-2xs"></i>
+
+</div>
+
+
+<div class="table" style="padding: 0%; padding-left: 30%;text-align: center; " >
+    <table class="table table-striped" *ngIf="userData && userData.length > 0" >
+        <tr>
+        <th>UserID</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Completed</th>
+        <th>Action</th>
+    
+        </tr>
+        <tr *ngIf="!(userData && userData.length > 0)">
+            <td colspan="50">Data not found</td>
+        </tr>
+
+   
+        
+        <tr *ngFor="let u of userData | filter:searchText">
+            <td>{{u.userId}}</td>
+            <td>{{u.id}}</td>
+            <td>{{u.title}}</td>
+            <td>{{u.completed ? 'True' : 'False'}}</td>
+            <td>
+            <button class="btn btn-info" type="button" (click)="edit(u.id)" style="width: 100px;">Edit</button>
+            </td>
+        </tr>
+
+        
+    </table>
+   
+</div>
+</div>
+
+
